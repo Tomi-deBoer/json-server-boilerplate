@@ -1,231 +1,262 @@
 {
-  "travelPlans": [
-    {
-      "id": "1234",
-      "nameofTraveller": "John Doe",
-      "travelLocation": "Paris",
-      "travelImage": "https://example.com/image.jpg",
-      "accomodationType": "Hotel",
-      "placesToEat": ["Restaurant A", "Restaurant B"],
-      "attractions": ["Museum A", "Park B"],
-      "weather": {
-        "temperature": "25°C",
-        "condition": "Sunny"
-      }
-    },
-    {
-      "id": "TP1001",
-      "nameofTraveller": "Liam O'Connor",
-      "travelLocation": "London",
-      "travelImage": "https://images.unsplash.com/photo-1505765053450-5e6a2a1b6b6e",
-      "accomodationType": "Hotel",
-      "placesToEat": ["Borough Market", "Dishoom"],
-      "attractions": ["Tower of London", "London Eye"],
-      "weather": {"temperature": "18°C", "condition": "Partly Cloudy"}
-    },
-    {
-      "id": "TP1002",
-      "nameofTraveller": "Sofia Rossi",
-      "travelLocation": "Rome",
-      "travelImage": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade",
-      "accomodationType": "Airbnb",
-      "placesToEat": ["Trastevere Trattoria", "Pizzeria Da Baffetto"],
-      "attractions": ["Colosseum", "Vatican Museums"],
-      "weather": {"temperature": "27°C", "condition": "Sunny"}
-    },
-    {
-      "id": "TP1003",
-      "nameofTraveller": "Marta Garcia",
-      "travelLocation": "Barcelona",
-      "travelImage": "https://images.unsplash.com/photo-1505765053450-6a8a2a1b6b6f",
-      "accomodationType": "Hostel",
-      "placesToEat": ["La Boqueria", "Cerveseria Catalana"],
-      "attractions": ["Sagrada Familia", "Park Güell"],
-      "weather": {"temperature": "24°C", "condition": "Sunny"}
-    },
-    {
-      "id": "TP1004",
-      "nameofTraveller": "Oliver Brown",
-      "travelLocation": "Berlin",
-      "travelImage": "https://images.unsplash.com/photo-1491553895911-0055eca6402d",
-      "accomodationType": "Hotel",
-      "placesToEat": ["Curry 36", "Mustafa's Gemüse Kebap"],
-      "attractions": ["Brandenburg Gate", "Museum Island"],
-      "weather": {"temperature": "20°C", "condition": "Overcast"}
-    },
-    {
-      "id": "TP1005",
-      "nameofTraveller": "Anna de Vries",
-      "travelLocation": "Amsterdam",
-      "travelImage": "https://images.unsplash.com/photo-1508057198894-1a8a3a1a6b6f",
-      "accomodationType": "B&B",
-      "placesToEat": ["Foodhallen", "Pancake Bakery"],
-      "attractions": ["Rijksmuseum", "Anne Frank House"],
-      "weather": {"temperature": "17°C", "condition": "Drizzle"}
-    },
-    {
-      "id": "TP1006",
-      "nameofTraveller": "Pavel Novak",
-      "travelLocation": "Prague",
-      "travelImage": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
-      "accomodationType": "Hotel",
-      "placesToEat": ["Lokál", "Café Louvre"],
-      "attractions": ["Charles Bridge", "Prague Castle"],
-      "weather": {"temperature": "16°C", "condition": "Cloudy"}
-    },
-    {
-      "id": "TP1007",
-      "nameofTraveller": "Katarina Horvat",
-      "travelLocation": "Vienna",
-      "travelImage": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf",
-      "accomodationType": "Hotel",
-      "placesToEat": ["Figlmüller", "Naschmarkt"],
-      "attractions": ["Schönbrunn Palace", "St. Stephen's Cathedral"],
-      "weather": {"temperature": "19°C", "condition": "Sunny"}
-    },
-    {
-      "id": "TP1008",
-      "nameofTraveller": "Miguel Sousa",
-      "travelLocation": "Lisbon",
-      "travelImage": "https://images.unsplash.com/photo-1505765053450-9b6a2a1b6b6a",
-      "accomodationType": "Airbnb",
-      "placesToEat": ["Time Out Market", "Pasteis de Belém"],
-      "attractions": ["Belém Tower", "Jerónimos Monastery"],
-      "weather": {"temperature": "23°C", "condition": "Clear"}
-    },
-    {
-      "id": "TP1009",
-      "nameofTraveller": "Zoltan Kovacs",
-      "travelLocation": "Budapest",
-      "travelImage": "https://images.unsplash.com/photo-1505765053450-2c6a2a1b6b6b",
-      "accomodationType": "Hostel",
-      "placesToEat": ["Great Market Hall", "Ruin Bars"],
-      "attractions": ["Buda Castle", "Széchenyi Thermal Bath"],
-      "weather": {"temperature": "21°C", "condition": "Partly Cloudy"}
-    },
-    {
-      "id": "TP1010",
-      "nameofTraveller": "Ingrid Svensson",
-      "travelLocation": "Stockholm",
-      "travelImage": "https://images.unsplash.com/photo-1505765053450-3d6a2a1b6b6c",
-      "accomodationType": "Hotel",
-      "placesToEat": ["Östermalms Saluhall", "Pelikan"],
-      "attractions": ["Vasa Museum", "Gamla Stan"],
-      "weather": {"temperature": "14°C", "condition": "Cool"}
+ "travelPlans": [
+  {
+    "id": "1234",
+    "nameofTraveller": "John Doe",
+    "travelLocation": "Paris",
+    "travelImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "accomodationType": "Hotel",
+    "placesToEat": ["Restaurant A", "Restaurant B"],
+    "attractions": ["Museum A", "Park B"],
+    "weather": {
+      "temperature": "25°C",
+      "condition": "Sunny"
     }
-  ],
-  "creator": [
-    {
-      "id": "ABCD",
-      "nameofCreator": "Jane Smith",
-      "profileImage": "https://example.com/creator-image.jpg",
-      "rating": null,
-      "travelPlanId": "1234"
-    },
-    {
-      "id": "CR1001",
-      "nameofCreator": "Liam O'Connor",
-      "profileImage": "https://example.com/creators/liam.jpg",
-      "rating": null,
-      "travelPlanId": "TP1001"
-    },
-    {
-      "id": "CR1002",
-      "nameofCreator": "Sofia Rossi",
-      "profileImage": "https://example.com/creators/sofia.jpg",
-      "rating": null,
-      "travelPlanId": "TP1002"
-    },
-    {
-      "id": "CR1003",
-      "nameofCreator": "Marta Garcia",
-      "profileImage": "https://example.com/creators/marta.jpg",
-      "rating": null,
-      "travelPlanId": "TP1003"
-    },
-    {
-      "id": "CR1004",
-      "nameofCreator": "Felix Müller",
-      "profileImage": "https://example.com/creators/felix.jpg",
-      "rating": null,
-      "travelPlanId": "TP1004"
-    },
-    {
-      "id": "CR1005",
-      "nameofCreator": "Anna de Vries",
-      "profileImage": "https://example.com/creators/anna.jpg",
-      "rating": null,
-      "travelPlanId": "TP1005"
-    },
-    {
-      "id": "CR1006",
-      "nameofCreator": "Pavel Novak",
-      "profileImage": "https://example.com/creators/pavel.jpg",
-      "rating": null,
-      "travelPlanId": "TP1006"
-    },
-    {
-      "id": "CR1007",
-      "nameofCreator": "Eva Novak",
-      "profileImage": "https://example.com/creators/eva.jpg",
-      "rating": null,
-      "travelPlanId": "TP1006"
-    },
-    {
-      "id": "CR1008",
-      "nameofCreator": "Katarina Horvat",
-      "profileImage": "https://example.com/creators/katarina.jpg",
-      "rating": null,
-      "travelPlanId": "TP1007"
-    },
-    {
-      "id": "CR1009",
-      "nameofCreator": "Miguel Sousa",
-      "profileImage": "https://example.com/creators/miguel.jpg",
-      "rating": null,
-      "travelPlanId": "TP1008"
-    },
-    {
-      "id": "CR1010",
-      "nameofCreator": "Zoltan Kovacs",
-      "profileImage": "https://example.com/creators/zoltan.jpg",
-      "rating": null,
-      "travelPlanId": "TP1009"
-    },
-    {
-      "id": "CR1011",
-      "nameofCreator": "Ingrid Svensson",
-      "profileImage": "https://example.com/creators/ingrid.jpg",
-      "rating": null,
-      "travelPlanId": "TP1010"
-    },
-    {
-      "id": "CR1012",
-      "nameofCreator": "Pierre Dubois",
-      "profileImage": "https://example.com/creators/pierre.jpg",
-      "rating": null,
-      "travelPlanId": "TP1001"
-    },
-    {
-      "id": "CR1013",
-      "nameofCreator": "Giulia Bianchi",
-      "profileImage": "https://example.com/creators/giulia.jpg",
-      "rating": null,
-      "travelPlanId": "TP1002"
-    },
-    {
-      "id": "CR1014",
-      "nameofCreator": "Oliver Brown",
-      "profileImage": "https://example.com/creators/oliver.jpg",
-      "rating": null,
-      "travelPlanId": "TP1004"
-    },
-    {
-      "id": "CR1015",
-      "nameofCreator": "Noah Fischer",
-      "profileImage": "https://example.com/creators/noah.jpg",
-      "rating": null,
-      "travelPlanId": "TP1005"
+  },
+  {
+    "id": "TP1001",
+    "nameofTraveller": "Liam O'Connor",
+    "travelLocation": "London",
+    "travelImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
+    "accomodationType": "Hotel",
+    "placesToEat": ["Borough Market", "Dishoom"],
+    "attractions": ["Tower of London", "London Eye"],
+    "weather": {
+      "temperature": "18°C",
+      "condition": "Partly Cloudy"
     }
-  ]
+  },
+  {
+    "id": "TP1002",
+    "nameofTraveller": "Sofia Rossi",
+    "travelLocation": "Rome",
+    "travelImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+    "accomodationType": "Airbnb",
+    "placesToEat": ["Trastevere Trattoria", "Pizzeria Da Baffetto"],
+    "attractions": ["Colosseum", "Vatican Museums"],
+    "weather": {
+      "temperature": "27°C",
+      "condition": "Sunny"
+    }
+  },
+  {
+    "id": "TP1003",
+    "nameofTraveller": "Marta Garcia",
+    "travelLocation": "Barcelona",
+    "travelImage": "https://images.unsplash.com/photo-1583422409516-2895a77efded",
+    "accomodationType": "Hostel",
+    "placesToEat": ["La Boqueria", "Cerveseria Catalana"],
+    "attractions": ["Sagrada Familia", "Park Güell"],
+    "weather": {
+      "temperature": "24°C",
+      "condition": "Sunny"
+    }
+  },
+  {
+    "id": "TP1004",
+    "nameofTraveller": "Oliver Brown",
+    "travelLocation": "Berlin",
+    "travelImage": "https://images.unsplash.com/photo-1560969184-10fe8719e047",
+    "accomodationType": "Hotel",
+    "placesToEat": ["Curry 36", "Mustafa's Gemüse Kebap"],
+    "attractions": ["Brandenburg Gate", "Museum Island"],
+    "weather": {
+      "temperature": "20°C",
+      "condition": "Overcast"
+    }
+  },
+  {
+    "id": "TP1005",
+    "nameofTraveller": "Anna de Vries",
+    "travelLocation": "Amsterdam",
+    "travelImage": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017",
+    "accomodationType": "B&B",
+    "placesToEat": ["Foodhallen", "Pancake Bakery"],
+    "attractions": ["Rijksmuseum", "Anne Frank House"],
+    "weather": {
+      "temperature": "17°C",
+      "condition": "Drizzle"
+    }
+  },
+  {
+    "id": "TP1006",
+    "nameofTraveller": "Pavel Novak",
+    "travelLocation": "Prague",
+    "travelImage": "https://images.unsplash.com/photo-1541849546-216549ae216d",
+    "accomodationType": "Hotel",
+    "placesToEat": ["Lokál", "Café Louvre"],
+    "attractions": ["Charles Bridge", "Prague Castle"],
+    "weather": {
+      "temperature": "16°C",
+      "condition": "Cloudy"
+    }
+  },
+  {
+    "id": "TP1007",
+    "nameofTraveller": "Katarina Horvat",
+    "travelLocation": "Vienna",
+    "travelImage": "https://images.unsplash.com/photo-1516550893923-42d28e5677af",
+    "accomodationType": "Hotel",
+    "placesToEat": ["Figlmüller", "Naschmarkt"],
+    "attractions": ["Schönbrunn Palace", "St. Stephen's Cathedral"],
+    "weather": {
+      "temperature": "19°C",
+      "condition": "Sunny"
+    }
+  },
+  {
+    "id": "TP1008",
+    "nameofTraveller": "Miguel Sousa",
+    "travelLocation": "Lisbon",
+    "travelImage": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b",
+    "accomodationType": "Airbnb",
+    "placesToEat": ["Time Out Market", "Pasteis de Belém"],
+    "attractions": ["Belém Tower", "Jerónimos Monastery"],
+    "weather": {
+      "temperature": "23°C",
+      "condition": "Clear"
+    }
+  },
+  {
+    "id": "TP1009",
+    "nameofTraveller": "Zoltan Kovacs",
+    "travelLocation": "Budapest",
+    "travelImage": "https://images.unsplash.com/photo-1541849546-216549ae216d",
+    "accomodationType": "Hostel",
+    "placesToEat": ["Great Market Hall", "Ruin Bars"],
+    "attractions": ["Buda Castle", "Széchenyi Thermal Bath"],
+    "weather": {
+      "temperature": "21°C",
+      "condition": "Partly Cloudy"
+    }
+  },
+  {
+    "id": "TP1010",
+    "nameofTraveller": "Ingrid Svensson",
+    "travelLocation": "Stockholm",
+    "travelImage": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11",
+    "accomodationType": "Hotel",
+    "placesToEat": ["Östermalms Saluhall", "Pelikan"],
+    "attractions": ["Vasa Museum", "Gamla Stan"],
+    "weather": {
+      "temperature": "14°C",
+      "condition": "Cool"
+    }
+  }
+],
+"creators": [ 
+  {
+    "id": "ABCD",
+    "nameofCreator": "Jane Smith",
+    "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    "rating": null,
+    "travelPlanId": "1234"
+  }, 
+  {
+    "id": "CR1001",
+    "nameofCreator": "Liam O'Connor",
+    "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "rating": null,
+    "travelPlanId": "TP1001"
+  },
+  {
+    "id": "CR1002",
+    "nameofCreator": "Sofia Rossi",
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+    "rating": null,
+    "travelPlanId": "TP1002"
+  },
+  {
+    "id": "CR1003",
+    "nameofCreator": "Marta Garcia",
+    "profileImage": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df",
+    "rating": null,
+    "travelPlanId": "TP1003"
+  },
+  {
+    "id": "CR1004",
+    "nameofCreator": "Felix Müller",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "rating": null,
+    "travelPlanId": "TP1004"
+  },
+  {
+    "id": "CR1005",
+    "nameofCreator": "Anna de Vries",
+    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "rating": null,
+    "travelPlanId": "TP1005"
+  },
+  {
+    "id": "CR1006",
+    "nameofCreator": "Pavel Novak",
+    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "rating": null,
+    "travelPlanId": "TP1006"
+  },
+  {
+    "id": "CR1007",
+    "nameofCreator": "Eva Novak",
+    "profileImage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
+    "rating": null,
+    "travelPlanId": "TP1006"
+  },
+  {
+    "id": "CR1008",
+    "nameofCreator": "Katarina Horvat",
+    "profileImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "rating": null,
+    "travelPlanId": "TP1007"
+  },
+  {
+    "id": "CR1009",
+    "nameofCreator": "Miguel Sousa",
+    "profileImage": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128",
+    "rating": null,
+    "travelPlanId": "TP1008"
+  },
+  {
+    "id": "CR1010",
+    "nameofCreator": "Zoltan Kovacs",
+    "profileImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+    "rating": null,
+    "travelPlanId": "TP1009"
+  },
+  {
+    "id": "CR1011",
+    "nameofCreator": "Ingrid Svensson",
+    "profileImage": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce",
+    "rating": null,
+    "travelPlanId": "TP1010"
+  },
+  {
+    "id": "CR1012",
+    "nameofCreator": "Pierre Dubois",
+    "profileImage": "https://images.unsplash.com/photo-1521119989659-a83eee488004",
+    "rating": null,
+    "travelPlanId": "TP1001"
+  },
+  {
+    "id": "CR1013",
+    "nameofCreator": "Giulia Bianchi",
+    "profileImage": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "rating": null,
+    "travelPlanId": "TP1002"
+  },
+  {
+    "id": "CR1014",
+    "nameofCreator": "Oliver Brown",
+    "profileImage": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef",
+    "rating": null,
+    "travelPlanId": "TP1004"
+  },
+  {
+    "id": "CR1015",
+    "nameofCreator": "Noah Fischer",
+    "profileImage": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea",
+    "rating": null,
+    "travelPlanId": "TP1005"
+  }
+]
 }
+
